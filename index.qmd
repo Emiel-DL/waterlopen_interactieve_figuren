@@ -6,6 +6,11 @@ format:
     scrolling: false
 ---
 
+# SEM netwerk MMIF - Beken (MI)
+
+```{=html}
+<iframe src="pages/psem_inter_netw_mi_nat_sv_mmif_beek.html" width="100%" height="800" style="border:none;"></iframe>
+```
 
 # Fysico-chemie (MI)
 
