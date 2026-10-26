@@ -19,7 +19,7 @@ format:
 # Fysico-chemie (MI)
 
 ```{=html}
-<iframe src="pages/synthese_fysico_MI.html" width="100%" height="900" style="border:none;"></iframe>
+<iframe src="pages/synthese_fysico_MI.html" width="100%" height="900" loading="lazy" style="border:none;"></iframe>
 ```
 
 # Bronvariabelen (MI)
