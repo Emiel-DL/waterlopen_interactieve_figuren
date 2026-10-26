@@ -12,6 +12,10 @@ format:
 <iframe src="pages/psem_inter_netw_mi_nat_sv_mmif_beek.html" width="100%" height="800" style="border:none;"></iframe>
 ```
 
+# Synthesefiguren
+
+::: {.panel-tabset}
+
 # Fysico-chemie (MI)
 
 ```{=html}

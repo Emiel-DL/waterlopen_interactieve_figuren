@@ -73,7 +73,7 @@ ul.task-list li input[type="checkbox"] {
         <div class="navbar-author">Emiel De Lombaerde</div>
       </div>
     </div>
-<div id="dashboard-collapse" class="navbar-collapse collapse"><ul class="navbar-nav navbar-nav-scroll me-auto" role="tablist"><li class="nav-item" role="presentation"><a id="tab-sem-netwerk-mmif---beken-mi" class="nav-link active" data-bs-toggle="tab" role="tab" data-bs-target="#sem-netwerk-mmif---beken-mi" data-scrolling="false" href="#sem-netwerk-mmif---beken-mi" aria-controls="sem-netwerk-mmif---beken-mi" aria-selected="true"><span class="nav-link-text">SEM netwerk MMIF - Beken (MI)</span></a></li><li class="nav-item" role="presentation"><a id="tab-fysico-chemie-mi" class="nav-link" data-bs-toggle="tab" role="tab" data-bs-target="#fysico-chemie-mi" data-scrolling="false" href="#fysico-chemie-mi" aria-controls="fysico-chemie-mi" aria-selected="false"><span class="nav-link-text">Fysico-chemie (MI)</span></a></li><li class="nav-item" role="presentation"><a id="tab-bronvariabelen-mi" class="nav-link" data-bs-toggle="tab" role="tab" data-bs-target="#bronvariabelen-mi" data-scrolling="false" href="#bronvariabelen-mi" aria-controls="bronvariabelen-mi" aria-selected="false"><span class="nav-link-text">Bronvariabelen (MI)</span></a></li></ul></div></div>
+<div id="dashboard-collapse" class="navbar-collapse collapse"><ul class="navbar-nav navbar-nav-scroll me-auto" role="tablist"><li class="nav-item" role="presentation"><a id="tab-sem-netwerk-mmif---beken-mi" class="nav-link active" data-bs-toggle="tab" role="tab" data-bs-target="#sem-netwerk-mmif---beken-mi" data-scrolling="false" href="#sem-netwerk-mmif---beken-mi" aria-controls="sem-netwerk-mmif---beken-mi" aria-selected="true"><span class="nav-link-text">SEM netwerk MMIF - Beken (MI)</span></a></li><li class="nav-item" role="presentation"><a id="tab-synthesefiguren" class="nav-link" data-bs-toggle="tab" role="tab" data-bs-target="#synthesefiguren" data-scrolling="false" href="#synthesefiguren" aria-controls="synthesefiguren" aria-selected="false"><span class="nav-link-text">Synthesefiguren</span></a></li></ul></div></div>
 </nav>
 </header>
 <div class="page-layout-custom quarto-dashboard-content bslib-gap-spacing html-fill-container bslib-page-fill quarto-dashboard-pages">  
@@ -84,14 +84,28 @@ ul.task-list li input[type="checkbox"] {
 <iframe src="pages/psem_inter_netw_mi_nat_sv_mmif_beek.html" width="100%" height="800" style="border:none;"></iframe>
 </div>
 </div>
-<div id="fysico-chemie-mi" class="dashboard-page tab-pane grid-skip html-fill-item html-fill-container" data-orientation="rows" aria-labelledby="tab-fysico-chemie-mi">
-<div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-rows: minmax(3em, 1fr); grid-auto-columns: minmax(0, 1fr);">
+<div id="synthesefiguren" class="dashboard-page tab-pane grid-skip html-fill-item html-fill-container" data-orientation="rows" aria-labelledby="tab-synthesefiguren">
+<div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-rows: minmax(3em, max-content); grid-auto-columns: minmax(0, 1fr);">
+<div class="card html-fill-item html-fill-container bslib-card" data-fill="false" data-bslib-card-init="" data-require-bs-caller="card()" data-full-screen="false">
+<div class="card-body html-fill-item html-fill-container">
+<div class="panel-tabset html-fill-item html-fill-container">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" href="">Fysico-chemie (MI)</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false" href="">Bronvariabelen (MI)</a></li></ul>
+<div class="tab-content html-fill-item html-fill-container">
+<div id="tabset-1-1" class="tab-pane active html-fill-item html-fill-container" role="tabpanel" aria-labelledby="tabset-1-1-tab">
 <iframe src="pages/synthese_fysico_MI.html" width="100%" height="800" style="border:none;"></iframe>
 </div>
-</div>
-<div id="bronvariabelen-mi" class="dashboard-page tab-pane grid-skip html-fill-item html-fill-container" data-orientation="rows" aria-labelledby="tab-bronvariabelen-mi">
-<div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-rows: minmax(3em, 1fr); grid-auto-columns: minmax(0, 1fr);">
+<div id="tabset-1-2" class="tab-pane html-fill-item html-fill-container" role="tabpanel" aria-labelledby="tabset-1-2-tab">
 <iframe src="pages/synthese_MI.html" width="100%" height="800" style="border:none;"></iframe>
+</div>
+</div>
+</div>
+</div>
+<bslib-tooltip placement="auto" bsoptions="[]" data-require-bs-version="5" data-require-bs-caller="tooltip()">
+    <template>Expand</template>
+    <span class="bslib-full-screen-enter badge rounded-pill">
+        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" style="height:1em;width:1em;" aria-hidden="true" role="img"><path d="M20 5C20 4.4 19.6 4 19 4H13C12.4 4 12 3.6 12 3C12 2.4 12.4 2 13 2H21C21.6 2 22 2.4 22 3V11C22 11.6 21.6 12 21 12C20.4 12 20 11.6 20 11V5ZM4 19C4 19.6 4.4 20 5 20H11C11.6 20 12 20.4 12 21C12 21.6 11.6 22 11 22H3C2.4 22 2 21.6 2 21V13C2 12.4 2.4 12 3 12C3.6 12 4 12.4 4 13V19Z"></path></svg>
+    </span>
+</bslib-tooltip><script data-bslib-card-init="">bslib.Card.initializeAllCards();</script></div>
 <div id="3ade8a4a-fb1d-4a6c-8409-ac45482d5fc9" class="hidden html-fill-item html-fill-container">
 
 </div>
